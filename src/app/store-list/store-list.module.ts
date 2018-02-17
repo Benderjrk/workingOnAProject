@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 import { StoreListComponent } from './store-list.component';
 
@@ -7,6 +8,9 @@ import { StoreListComponent } from './store-list.component';
   declarations: [
     StoreListComponent
   ],
+  imports: [
+    CommonModule
+  ]
 
 })
 export class StoreListModule {}
