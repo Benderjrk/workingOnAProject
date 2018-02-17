@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
 
 
 import { AppComponent } from './app.component';
@@ -14,6 +16,7 @@ import { StoreListModule } from './store-list/store-list.module';
     AppComponent
   ],
   imports: [
+    NgbModule.forRoot(),
     BrowserModule,
     CoreModule,
     StoreListModule

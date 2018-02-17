@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 
 import { NavbarComponent } from './navbar/navbar.component';
@@ -11,6 +12,7 @@ import { AppRoutingModule } from '../app-routing.module';
     HomeComponent
   ],
   imports: [
+    NgbModule,
     AppRoutingModule
   ],
   exports:[
